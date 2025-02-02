@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+
+}
+.header {
+    background-image: url(PICTURES/One\ Piece\ Big\ Mom\ GIF\ by\ Toei\ Animation.gif);
+    background-position: center;
+    background-size: 3000px;
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 80px;
+    height: 350px;
+    font-size: 40px;
+    color: #ee4b0a; 
+
+}
+
+.description {
+    padding: 20px;
+    font-size: 25px;
+    color: #ddcfcf;
+    font-weight: 600;
+}
+
+
+.nav {
+    background-color: #cf6915;
+    overflow: hidden;
+    display: flex;
+    padding: 10px;
+}
+.nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: #575757;
+}
+.container {
+    display: flex;
+    padding: 20px;
+    margin-left: 30px;
+}
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.sidebar b {
+    color: #cf6915;
+    font-style: italic;
+}
+
+.sidebar p{
+    font-size: 17.5px;
+}
+
+.sidebar .image-placeholder {
+    background: url(PICTURES/image\ 2.gif);
+    background-position: center;
+    background-size: 500px;
+    height: 500px;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 35px;
+    padding-left: 150px;
+    color: #cf6915;
+}
+
+.content p {
+    padding-left: 150px;
+    font-size: 17.5px;
+    padding-bottom: 20px;
+}
+.content .image-placeholder {
+    width: 100%;
+    height: 500px;
+    background: url(PICTURES/image\ 3.jpg);
+    image-resolution: 100%;
+    background-size: 1000px;
+    margin-left: 150px ;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    
+}
+
+/* responsive */
+
+
+@media screen and (min-width: 1200px) {
+    .container {
+        margin: auto;
+        
+    }
+
+    .description {
+        margin: auto;
+        padding: 20px;
+        font-size: 25px;
+        color: #ddcfcf;
+        font-weight: 600;
+
+    }
+
+    .header{
+        margin: auto;
+        image-resolution: 100%;
+        font-size: 20px;
+    }
+    .nav{
+        margin: auto;
+    }
+    .content {
+        margin: auto;
+        width: 70%;
+        padding: 20px;
+    }
+
+    .content h2 {
+        margin: auto;
+        font-size: 35px;
+        padding-left: 20px;
+        color: #cf6915;
+    }
+    
+    .content p {
+        margin: auto;
+        padding-left: 20px;
+        font-size: 17.5px;
+        padding-bottom: 20px;
+
+    }
+
+    .content .image-placeholder {
+        width: 100%;
+        height: 500px;
+        background: url(PICTURES/image\ 3.jpg);
+        background-size: 1000px;
+        background-repeat: no-repeat;
+        margin-left: 20px ;
+}
+
+}
+
+/* Laptops (1024px) */
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+        margin: auto;
+        
+    }
+
+    .container .sidebar .image-placeholder{
+        height: 420px;
+        background-size: 350px;
+        background-position: center;
+    }
+
+    .description {
+        max-width: 1024px;
+        margin: auto;
+        padding: 20px;
+        font-size: 25px;
+        color: #ddcfcf;
+        font-weight: 600;
+
+    }
+
+    .header{
+        max-width: 1024px;
+        image-resolution: 100%;
+        margin: auto;
+        font-size: 20px;
+    }
+    .nav{
+        max-width: 1024px;
+        margin: auto;
+    }
+    .content {
+        max-width: 1024px;
+        margin: auto;
+        width: 70%;
+        padding: 20px;
+    }
+
+    .content h2 {
+        max-width: 1024px;
+        margin: auto;
+        font-size: 35px;
+        padding-left: 20px;
+        color: #cf6915;
+    }
+    
+    .content p {
+        max-width: 1024px;
+        margin: auto;
+        padding-left: 20px;
+        font-size: 17.5px;
+        padding-bottom: 20px;
+
+    }
+
+    .content .image-placeholder {
+        max-width: 1024px;
+        margin: auto;
+        width: 100%;
+        height: 500px;
+        background: url(PICTURES/image\ 3.jpg);
+        background-size: 1000px;
+        background-repeat: no-repeat;
+        margin-left: 20px ;
+}
+
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin: auto;
+        
+    }
+
+    .sidebar {
+        width: 500px;
+        height: 700px
+       
+    }
+
+    .header {
+        image-resolution: 100%;
+    }
+
+    .sidebar p {
+        max-width: 768;
+    }
+
+    .content h2 {
+        max-width: 768px;
+        margin: auto;
+        font-size: 20px;
+        padding-left: 20px;
+        color: #cf6915;
+    }
+
+    .content p {
+        max-width: 768px;
+        margin: auto;
+        padding-left: 20px;
+        font-size: 17.5px;
+        padding-bottom: 20px;
+
+    }
+
+    .content .image-placeholder {
+        max-width: 768px;
+        margin: auto;
+        width: 100%;
+        height: 370px;
+        background: url(PICTURES/image\ 3.jpg);
+        background-size: 1000px;
+        background-repeat: no-repeat;
+        margin-left: 20px ;
+}
+
+    
+}
+    
+
+/* Mobile Phones (480px and below) */
+@media screen and (max-width: 480px) {
+    
+    .header {
+        background-size: auto;
+        font-size: 25px;
+        height: auto;
+        padding: 40px;
+    }
+    .description {
+        font-size: 18px;
+        padding: 5px;
+    }
+    .nav {
+        padding-left: 40px;
+        gap: 20px;
+        text-align: center;
+    }
+    .nav a {
+        display: block;
+        padding: 8px;
+    }
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .sidebar, .content {
+        width: 100%;
+        padding: 10px;
+    }
+    .content h2 {
+        font-size: 25px;
+        text-align: left;
+        padding-left: 5px;
+        
+    }
+
+    .content p {
+        text-align: left;
+        padding-left: 5px;
+    }
+
+    .content .image-placeholder {
+        margin-left: 0px ;
+        background-repeat: no-repeat;
+    }
+}
+
+
