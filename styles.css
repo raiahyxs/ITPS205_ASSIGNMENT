@@ -155,7 +155,7 @@ body {
         width: 100%;
         height: 500px;
         background: url(PICTURES/image\ 3.jpg);
-        background-size: 1000px;
+        background-size: 1200px;
         background-repeat: no-repeat;
         margin-left: 20px ;
 }
@@ -348,7 +348,7 @@ body {
 
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 890px) {
     .container {
         margin: auto;
     }
@@ -357,6 +357,12 @@ body {
         width: 500px;
         height: 100px;
        
+    }
+
+    .container .sidebar .image-placeholder{
+        height: 385px;
+        background-size: 350px;
+        background-position: center;
     }
 
     .container .image-placeholder {
@@ -388,7 +394,7 @@ body {
         width: 100%;
         height: 370px;
         background: url(PICTURES/image\ 3.jpg);
-        background-size: 860px;
+        background-size: 890px;
         background-repeat: no-repeat;
         margin-left: 0px ;
 }
@@ -402,9 +408,17 @@ body {
         
     }
 
+    .container .sidebar .image-placeholder{
+        height: 420px;
+        background-size: 350px;
+        background-position: center;
+    }
+
     .sidebar {
         width: 500px;
-        height: 700px
+        height: 700px;
+        background-position: center;
+        background-repeat: no-repeat;
        
     }
 
@@ -432,7 +446,7 @@ body {
         width: 100%;
         height: 370px;
         background: url(PICTURES/image\ 3.jpg);
-        background-size: 1000px;
+        background-size: 760px;
         background-repeat: no-repeat;
         margin-left: 20px ;
 }
@@ -487,5 +501,3 @@ body {
         background-repeat: no-repeat;
     }
 }
-
-
